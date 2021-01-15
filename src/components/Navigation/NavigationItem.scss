@@ -1,0 +1,22 @@
+.navigation-item {
+    height: 70px;
+    width: 100%;
+    // background-color:#004a6d;
+    transition: .5s;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: honeydew;
+    font-size:  2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navigation-item:hover {
+    height: 90px;
+    width: 100%;
+    margin-left: 10px;
+    background: radial-gradient(#46005733 60%, #000531)
+}

@@ -1,0 +1,25 @@
+.about--outer-container {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    z-index: 1;
+    cursor: pointer;
+
+    header {
+        margin: 30px;
+    }
+
+    h2 {
+        font-size: 4rem;
+        color: honeydew;
+        border-radius: 50%;
+    }
+    article {
+        font-size: 1.5rem;
+        color: honeydew;
+    }
+}
