@@ -11,15 +11,37 @@
 
     header {
         margin: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     h2 {
         font-size: 4rem;
         color: honeydew;
-        border-radius: 50%;
     }
     article {
         font-size: 1.5rem;
         color: honeydew;
     }
+}
+
+.about--moon {
+    opacity: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: honeydew;
+    position: absolute;
+}
+
+.about--moon-crescent {
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 100px;
+    background-color: #30084b;
 }
