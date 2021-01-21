@@ -1,38 +1,74 @@
-.home--outer-container {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(60deg, #000531 , #30084b 60%, #30084b);
+.about--outer-container {
     display: flex;
-}
-
-.home--navigation-menu {
-    width: 120px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.home--navigation-menu {
-    h2 {
-        height: 70px;
-        width: 100%;
-    // background-color:#004a6d;
-    transition: .5s;
-    text-align: center;
-    display: flex;
+    width: 80%;
     justify-content: center;
     align-items: center;
-    color: honeydew;
-    font-size:  2rem;
+    position: absolute;
+    flex-direction: column;
+    z-index: 1;
     cursor: pointer;
-    padding: 10px;
-    border-radius: 4px;
-}
-    h2:hover {
-        height: 90px;
-        width: 100%;
-        margin-left: 10px;
-        // background: radial-gradient(#46005733 60%, #000531);
-        color: rgb(228, 211, 116)
+
+    header {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 4rem;
+        color: honeydew;
+    }
+    article {
+        font-size: 1.5rem;
+        color: honeydew;
     }
 }
+
+.about--moon {
+    opacity: 0;
+    height: 30px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: honeydew;
+    position: absolute;
+    top: auto;
+    right: auto;
+}
+
+.about--moon-crescent {
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 100px;
+    background-color: #30084b;
+}
+
+// .about--moon {
+//     font-size: 0px;
+//     color: rgb(48, 8, 75);
+//     opacity: 1;
+//     width: 100px;
+//     height: 100px;
+//     top: 20px;
+//     right: 20px;
+// }
+
+// .about--moon-crescent {
+//     height: 70px;
+//     width: 70px;
+//     top: 0px;
+//     left: 35px;
+//     opacity: 1;
+// }
+
+// .blake-text{
+//     font-size: 0px;
+//     color: rgb(48, 8, 75);
+//     opacity: 1;
+//     width: 30px;
+// }

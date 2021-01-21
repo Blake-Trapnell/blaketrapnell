@@ -30,10 +30,12 @@
 .about--moon {
     opacity: 0;
     height: 30px;
-    width: 30px;
+    width: 60px;
     border-radius: 50%;
     background-color: honeydew;
     position: absolute;
+    top: auto;
+    right: auto;
 }
 
 .about--moon-crescent {
@@ -45,3 +47,28 @@
     left: 100px;
     background-color: #30084b;
 }
+
+// .about--moon {
+//     font-size: 0px;
+//     color: rgb(48, 8, 75);
+//     opacity: 1;
+//     width: 100px;
+//     height: 100px;
+//     top: 20px;
+//     right: 20px;
+// }
+
+// .about--moon-crescent {
+//     height: 70px;
+//     width: 70px;
+//     top: 0px;
+//     left: 35px;
+//     opacity: 1;
+// }
+
+// .blake-text{
+//     font-size: 0px;
+//     color: rgb(48, 8, 75);
+//     opacity: 1;
+//     width: 30px;
+// }
