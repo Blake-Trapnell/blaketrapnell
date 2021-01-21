@@ -8,7 +8,6 @@ const Main = (props) => {
     
 	return (
 		<div className={"main--outer-container"}>
-			{console.log(props.nav)}
            {props.nav === "Home" && <Home/>} 
 			{props.nav === "About" && <About/>}
             <Starrynight>

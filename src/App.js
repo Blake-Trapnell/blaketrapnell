@@ -14,11 +14,11 @@ function App() {
 		<div className="App">
 			<div className={"home--outer-container"}>
 				<nav className={"home--navigation-menu"}>
-					<h2 onClick={() => navigate("Home")}>Home</h2>
-					<h2 onClick={() => navigate("About")}>About</h2>
-					<h2 onClick={() => navigate("Projects")}>Projects</h2>
-					<h2 onClick={() => navigate("Skills")}>Skills</h2>
-					<h2 onClick={() => navigate("Contact")}>Contact</h2>
+					<h2 id={nav === "Home" && "selected"} onClick={() => navigate("Home")}>Home</h2>
+					<h2 id={nav === "About" && "selected"} onClick={() => navigate("About")}>About</h2>
+					<h2 id={nav === "Projects" && "selected"} onClick={() => navigate("Projects")}>Projects</h2>
+					<h2 id={nav === "Skills" && "selected"} onClick={() => navigate("Skills")}>Skills</h2>
+					<h2 id={nav === "Contact" && "selected"} onClick={() => navigate("Contact")}>Contact</h2>
 				</nav>
 				<Main nav={nav} />
 			</div>
