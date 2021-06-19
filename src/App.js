@@ -1,5 +1,8 @@
 import React from "react";
-import Main from "./components/App/Main";
+import Home from "./components/Home/Home.js";
+import About from "./components/About/About.js";
+import Skills from "./components/Skills/Skills.js";
+// import Contact from "./components/contact.js;"
 import { useState } from "react";
 import "./Home.scss";
 import "./App.css";
@@ -20,7 +23,11 @@ function App() {
 					<h2 id={nav === "Skills" && "selected"} onClick={() => navigate("Skills")}>Skills</h2>
 					<h2 id={nav === "Contact" && "selected"} onClick={() => navigate("Contact")}>Contact</h2>
 				</nav>
-				<Main nav={nav} />
+				<div className={"home--content"}>
+					<Home></Home>
+					<About></About>
+					<Skills></Skills>
+				</div>
 			</div>
 			);
 		</div>
